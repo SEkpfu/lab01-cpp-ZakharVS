@@ -1,9 +1,9 @@
-// 1 НОМЕР.
+ //1 НОМЕР.
 //#define _USE_MATH_DEFINES
 //#include<iostream>
 //#include <cmath>
 //using namespace std;
-//int main1() {
+//int main() {
 //	double S, V, R;
 //	setlocale(0, "");
 //	cout << "Введите площадь поверхности шара:";
@@ -88,13 +88,8 @@
 //	cin >> y;
 //	vr1 = log(fabs(cos(x))) / log(1 + pow(x, 2));
 //	vr2 = 3 + exp(y - 1) / (1 + pow(x, 2) * fabs(y - tan(x)));
-//	if (vr1 < 0)
-//		cout << "Первое выражение равно = " <<fixed<< setprecision (5) << vr1 <<endl;
-//	else
-//		cout << "Первое выражение равно = " << fixed << setprecision(5)  << "+" << vr1<< endl;
-//	if (vr2 < 0)
-//		cout << "Второе выражение равно = " << fixed << setprecision(5)  << vr2<<endl;
-//	else
-//		cout << "Второе выражение равно = " << fixed << setprecision(5)  << "+" << vr2<<endl;
+//	cout << "Первое выражение равно = " << showpos <<fixed<< setprecision (5) << vr1 <<endl;
+//	cout << "Второе выражение равно = " << showpos  << scientific << vr2<<endl;
+//	
 //	return 0;
 //}
