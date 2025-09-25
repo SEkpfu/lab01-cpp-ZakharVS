@@ -1,4 +1,4 @@
- //1 ÕŒÃ≈–.
+Ôªø //1 –ù–û–ú–ï–†.
 //#define _USE_MATH_DEFINES
 //#include<iostream>
 //#include <cmath>
@@ -6,17 +6,17 @@
 //int main() {
 //	double S, V, R;
 //	setlocale(0, "");
-//	cout << "¬‚Â‰ËÚÂ ÔÎÓ˘‡‰¸ ÔÓ‚ÂıÌÓÒÚË ¯‡‡:";
+//	cout << "–í–≤–µ–¥–∏—Ç–µ –ø–ª–æ—â–∞–¥—å –ø–æ–≤–µ—Ä—Ö–Ω–æ—Å—Ç–∏ —à–∞—Ä–∞:";
 //	cin >> S;
 //	R = pow((S / (4 * M_PI)), 0.5);
 //	V = 4.0 / 3.0 * M_PI * pow(R, 3);
-//	cout << "Œ·˙ÂÏ ¯‡‡ ‡‚ÂÌ:" << V;
+//	cout << "–û–±—ä–µ–º —à–∞—Ä–∞ —Ä–∞–≤–µ–Ω:" << V;
 //
 //	return 0;
 //}
 
 
-// 2 ÕŒÃ≈–.
+// 2 –ù–û–ú–ï–†.
 //#include<iostream>
 //#include <cmath>
 //using namespace std;
@@ -24,30 +24,30 @@
 //	setlocale(0, "");
 //	int D;
 //	double Sot, Des, Res;
-//	cout << "¬¬Â‰ËÚÂ Î˛·ÓÂ ˆÂÎÓÂ ˜ËÒÎÓ ·ÓÎ¸¯ÂÂ 999:";
+//	cout << "–í–í–µ–¥–∏—Ç–µ –ª—é–±–æ–µ —Ü–µ–ª–æ–µ —á–∏—Å–ª–æ –±–æ–ª—å—à–µ–µ 999:";
 //	cin >> D;
 //	Des = D%10;
 //	Sot = (D / 10) % 10;
 //	Res = ((D / 100) * 10 + Des) * 10 + Sot;
-//	(D > 999) ? cout << "–ÂÁÛÎ¸Ú‡Ú:" << Res : cout << "◊ËÒÎÓ ÏÂÌ¸¯Â 999";
+//	(D > 999) ? cout << "–†–µ–∑—É–ª—å—Ç–∞—Ç:" << Res : cout << "–ß–∏—Å–ª–æ –º–µ–Ω—å—à–µ 999";
 //
 //
 //
 //	return 0;
 //}
 
-//3 ÕŒÃ≈–.
+//3 –ù–û–ú–ï–†.
 //#include<iostream>
 //#include <cmath>
 //using namespace std;
 //int main() {
 //	setlocale(0, "");
 //	int A, B, C, pr;
-//	cout << "¬‚Â‰ËÚÂ ÔÂ‚ÓÂ ˜ËÒÎÓ:";
+//	cout << "–í–≤–µ–¥–∏—Ç–µ –ø–µ—Ä–≤–æ–µ —á–∏—Å–ª–æ:";
 //	cin >> A;
-//	cout << "¬‚Â‰ËÚÂ ‚ÚÓÓÂ ˜ËÒÎÓ:";
+//	cout << "–í–≤–µ–¥–∏—Ç–µ –≤—Ç–æ—Ä–æ–µ —á–∏—Å–ª–æ:";
 //	cin >> B;
-//	cout << "¬‚Â‰ËÚÂ ÚÂÚ¸Â ˜ËÒÎÓ:";
+//	cout << "–í–≤–µ–¥–∏—Ç–µ —Ç—Ä–µ—Ç—å–µ —á–∏—Å–ª–æ:";
 //	cin >> C;
 //	pr = A * C;
 //	(pr > 100) ?  ((A>B && A>C)? cout << A : (B > C && B > A)? cout << B : (C > B && C > A) ? cout << C : cout << A ) : cout << A * A << " " << B * B << " " << C * C;
@@ -55,13 +55,13 @@
 //
 //}
 
-//4 ÕŒÃ≈–.
+//4 –ù–û–ú–ï–†.
 //#include<iostream>
 //using namespace std;
 //int main() {
 //	setlocale(0, "");
 //	double y, x, x2, x4, x5, x8, x13;
-//	cout << "¬‚Â‰ËÚÂ ÁÌ‡˜ÂÌËÂ x: ";
+//	cout << "–í–≤–µ–¥–∏—Ç–µ –∑–Ω–∞—á–µ–Ω–∏–µ x: ";
 //	cin >> x;
 //	x2 = x * x;
 //	x4 = x2 * x2;
@@ -69,11 +69,11 @@
 //	x5 = x * x4;
 //	x13 = x5 * x8;
 //	y = x13 - x5 + x2 - 2;
-//	cout << "¬˚‡‰ÂÌËÂ y = " << y;
+//	cout << "–í—ã—Ä–∞–¥–µ–Ω–∏–µ y = " << y;
 //	return 0;
 //
 //}
-//5 ÕŒÃ≈–.
+//5 –ù–û–ú–ï–†.
 
 //#include<iostream>
 //#include<cmath>
@@ -82,14 +82,14 @@
 //int main() {
 //	setlocale(LC_ALL, "RU");
 //	double x, y, vr1,vr2;
-//	cout << "¬‚Â‰ËÚÂ ÁÌ‡˜ÂÌËÂ x: ";
+//	cout << "–í–≤–µ–¥–∏—Ç–µ –∑–Ω–∞—á–µ–Ω–∏–µ x: ";
 //	cin >> x;
-//	cout << "¬‚Â‰ËÚÂ ÁÌ‡˜ÂÌËÂ y: ";
+//	cout << "–í–≤–µ–¥–∏—Ç–µ –∑–Ω–∞—á–µ–Ω–∏–µ y: ";
 //	cin >> y;
 //	vr1 = log(fabs(cos(x))) / log(1 + pow(x, 2));
 //	vr2 = 3 + exp(y - 1) / (1 + pow(x, 2) * fabs(y - tan(x)));
-//	cout << "œÂ‚ÓÂ ‚˚‡ÊÂÌËÂ ‡‚ÌÓ = " << showpos <<fixed<< setprecision (5) << vr1 <<endl;
-//	cout << "¬ÚÓÓÂ ‚˚‡ÊÂÌËÂ ‡‚ÌÓ = " << showpos  << scientific << vr2<<endl;
+//	cout << "–ü–µ—Ä–≤–æ–µ –≤—ã—Ä–∞–∂–µ–Ω–∏–µ —Ä–∞–≤–Ω–æ = " << showpos <<fixed<< setprecision (5) << vr1 <<endl;
+//	cout << "–í—Ç–æ—Ä–æ–µ –≤—ã—Ä–∞–∂–µ–Ω–∏–µ —Ä–∞–≤–Ω–æ = " << showpos  << scientific << vr2<<endl;
 //	
 //	return 0;
 //}
